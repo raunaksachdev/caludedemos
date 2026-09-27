@@ -1,0 +1,11 @@
+[project]
+name = "caludedemos"
+version = "0.1.0"
+description = "POCs exploring the Claude Agent SDK"
+requires-python = ">=3.13"
+dependencies = [
+    "anthropic>=1.8.0",
+    "anyio>=4.15.1",
+    "claude-agent-sdk>=0.2.160",
+    "python-dotenv>=1.2.3",
+]
