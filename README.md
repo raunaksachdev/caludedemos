@@ -25,6 +25,7 @@ uv run main.py "What is 17% of 2350?"           # your own task
 uv run main.py --api "What is 17% of 2350?"     # same agent on the Messages API
 uv run examples/01_hello_query.py               # minimal query() example
 uv run examples/02_hello_messages_api.py        # minimal messages.create() example
+uv run examples/03_interactive_client.py        # ClaudeSDKClient: interrupt (/stop) or message the agent mid-run
 ```
 
 ## Layout
