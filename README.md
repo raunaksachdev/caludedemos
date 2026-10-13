@@ -29,6 +29,7 @@ uv run examples/03_interactive_client.py        # ClaudeSDKClient: interrupt (/s
 uv run examples/04_langgraph_checkpointer.py    # LangGraph support desk: manager approves Claude's replies (checkpointer, interrupt, time travel)
 uv run examples/05_sse_streaming.py             # SSE streaming: live thinking + text deltas, event tally, final message
 uv run examples/06_agent_sdk_streaming.py       # Agent SDK streaming on your claude.ai login: thinking, text and tool inputs live
+uv run examples/07_prompt_caching.py             # Prompt caching: shared repo-sized prefix written once, read by later questions, broken by a timestamp
 ```
 
 ## Layout
