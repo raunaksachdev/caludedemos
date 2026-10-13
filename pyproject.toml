@@ -7,5 +7,7 @@ dependencies = [
     "anthropic>=1.8.0",
     "anyio>=4.15.1",
     "claude-agent-sdk>=0.2.160",
+    "langgraph>=1.2.12",
+    "langgraph-checkpoint-sqlite>=3.1.1",
     "python-dotenv>=1.2.3",
 ]
