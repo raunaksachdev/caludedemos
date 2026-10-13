@@ -27,6 +27,7 @@ uv run examples/01_hello_query.py               # minimal query() example
 uv run examples/02_hello_messages_api.py        # minimal messages.create() example
 uv run examples/03_interactive_client.py        # ClaudeSDKClient: interrupt (/stop) or message the agent mid-run
 uv run examples/04_langgraph_checkpointer.py    # LangGraph support desk: manager approves Claude's replies (checkpointer, interrupt, time travel)
+uv run examples/05_sse_streaming.py             # SSE streaming: live thinking + text deltas, event tally, final message
 ```
 
 ## Layout
